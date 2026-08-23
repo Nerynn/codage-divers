@@ -121,7 +121,7 @@
   gap: 10px 0px; 
 }
 
-#intro.OR_links::before, #list-rp.OR_links::before {
+#intro.OR_links::before, #list-rp.OR_links::before, #post-rp.OR_links::before {
   content: "";
   position: absolute;
   top: 0; 
@@ -442,4 +442,41 @@ position: relative;
 border: solid 1px var(--orl-bg-color);
 background:var(--orl-gradient-bg);
 color:var(--orl-bg-color);
+}
+
+.OR_links-rp-title {
+  font-family: var(--orl-title-font);
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  align-items: center;
+  color: #fff;
+}
+
+#post-rp .OR_links-tag {
+  border: solid 1px var(--orl-tertiaire);
+  background:var(--orl-bg-color);
+  color:var(--orl-tertiaire);
+  border-radius:12px;
+  text-align:center;
+  padding:5px 10px;
+  width:fit-content;
+}
+
+#post-rp.OR_links img {
+  width:190px;
+  height:120px;
+  border-radius: 10px;
+  border: solid 1px var(--orl-bg-color);
+  object-fit: cover;
+  background-color: var(--orl-tertiaire); 
+  float:right;
+  position:relative;
+  z-index:2;
+  margin-right:15px;
+}
+
+#post-rp .OR_links-text {
+  text-align:justify;
+  padding:45px 15px 15px 15px;
 }
