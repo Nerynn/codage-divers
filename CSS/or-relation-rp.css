@@ -257,7 +257,7 @@ color:var(--orl-bg-color);
 
 .OR_links-search-text {
   overflow:auto;
-  height:132px;
+  height:143px;
   color:--var(orl-text-color);
   scrollbar-color: var(--orl-tertiaire) #fff;
   scrollbar-width: thin;
