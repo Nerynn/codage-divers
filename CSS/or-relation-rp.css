@@ -318,6 +318,10 @@ color:var(--orl-bg-color);
   list-style: none;
 }
 
+#list-rp .OR_links-text {
+padding: 10px 10px 10px 0;
+}
+
 .OR_links-text ul {
   padding:0 10px 0 10px;
   display: flex;
