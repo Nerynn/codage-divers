@@ -381,7 +381,7 @@ color:var(--orl-bg-color);
 
 .OR_links_rela {
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   align-items: center;
 }
@@ -393,8 +393,7 @@ color:var(--orl-bg-color);
   border-radius: 12px;
   border: 1px solid var(--orl-tertiaire);
   position: relative;
-  top:-40px;
-  left:5px;
+  top:-30px;
   z-index: 2;
   flex-shrink: 0;
 }
@@ -402,7 +401,7 @@ color:var(--orl-bg-color);
 #relations .OR_links-text {
 position: relative;
   z-index: 1;
-  margin-left: -82px; 
+  margin-left: -87px; 
   padding: 15px 15px 15px 100px; 
   background: #ffffff;
   border-radius: 15px;
