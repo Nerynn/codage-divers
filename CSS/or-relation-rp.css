@@ -23,7 +23,7 @@
   font-family:var(--orl-font);
   font-size:16px;
   color:var(--orl-text-color);
-  line-height:unset;
+  line-height:normal;
 }
 
 .OR_links.alpha {
