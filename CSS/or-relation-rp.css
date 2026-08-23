@@ -135,7 +135,8 @@
 }
 
 #intro.OR_links > *,
-#list-rp.OR_links > *{
+#list-rp.OR_links > *,
+#post-rp.OR_links > *{
   position: relative;
   z-index: 1;
 }
