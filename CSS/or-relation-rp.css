@@ -482,7 +482,6 @@ color:var(--orl-bg-color);
   float:right;
   position:relative;
   z-index:2;
-  margin-right:15px;
 }
 
 #post-rp .OR_links-text {
